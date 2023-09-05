@@ -1,2 +1,7 @@
-﻿CREATE VIEW	vwDepartment AS
-SELECT * FROM dbo.Department 
+﻿
+CREATE VIEW [dbo].[vwDepartment]
+AS
+SELECT Code,
+       Description,
+       Name
+FROM dbo.Department; 
